@@ -1,11 +1,11 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/screens/loginandsignup/login.dart';
-import 'package:food_delivery_app/screens/loginandsignup/signup.dart';
-import 'package:food_delivery_app/screens/main_screens/home/screens/home_screen.dart';
-import 'package:food_delivery_app/screens/onboarding/screen/onboarding_screen_1.dart';
-import 'package:food_delivery_app/screens/onboarding/screen/onboarding_screen_2.dart';
-import 'package:food_delivery_app/screens/splash/splash_screen.dart';
+import 'package:food_delivery_app/app/features/loginandsignup/screens/login.dart';
+import 'package:food_delivery_app/app/features/loginandsignup/screens/signup.dart';
+import 'package:food_delivery_app/app/features/home/screens/home_screen.dart';
+import 'package:food_delivery_app/app/features/onboarding/screen/onboarding_screen_1.dart';
+import 'package:food_delivery_app/app/features/onboarding/screen/onboarding_screen_2.dart';
+import 'package:food_delivery_app/app/features/splash/splash_screen.dart';
 import 'package:get/get.dart';
 
 class MyApp extends StatelessWidget {

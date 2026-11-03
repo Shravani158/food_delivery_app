@@ -7,7 +7,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:food_delivery_app/my_app.dart';
-import 'package:food_delivery_app/screens/onboarding/screen/onboarding_screen_1.dart';
+import 'package:food_delivery_app/app/features/onboarding/screen/onboarding_screen_1.dart';
 
 void main() {
   testWidgets('App renders onboarding screen test', (WidgetTester tester) async {
@@ -15,6 +15,6 @@ void main() {
     await tester.pumpWidget(const MyApp());
 
     // Verify that Onboardingscreen is present.
-    expect(find.byType(Onboardingscreen1()), findsOneWidget);
+    expect(find.byType(Onboardingscreen1), findsOneWidget);
   });
 }
