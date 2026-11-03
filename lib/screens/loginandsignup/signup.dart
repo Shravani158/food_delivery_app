@@ -1,4 +1,5 @@
 import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/screens/loginandsignup/widgets/app_text_fields.dart';
 import 'package:food_delivery_app/screens/loginandsignup/widgets/auth_card.dart';
@@ -69,7 +70,9 @@ class Signup extends StatelessWidget {
                       AppButton(
                         text: "Create account",
                         width: double.infinity,
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.toNamed('/home_screen');
+                        },
                       ),
                       const SizedBox(height: 10),
                     ],

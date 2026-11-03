@@ -75,7 +75,9 @@ class Login extends StatelessWidget {
                       AppButton(
                         text: "Login",
                         width: double.infinity,
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.toNamed('/home_screen');
+                        },
                       ),
                       const SizedBox(height: 10),
                       const Text(
